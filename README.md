@@ -18,3 +18,4 @@ separate files for each image and mask, from type ".npy" (instead of a file cont
 of MR images / segmentation masks). After creating the folders, the code terminated and 
 needs to re-run for training / predicting.
 In every other run, set “has_batches=False” (default value) and run the code.
+Download the dataset into a folder named "Data" to ensure competability with the code provided.
