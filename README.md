@@ -4,6 +4,7 @@ This project includes implementation of Unet-based segmentation algorithm for pr
 Our goal is to achieve high-score prostate segmentation using the U-Net model,
 despite the challenges posed by variations in data from multiple centers, vendors and protocol,
 as encountered in our selected dataset.
+![Project Logo](example_predict_mask.png)
 ## Instalation
 The environment required to run this project can be downloaded from the "environment.yml".
 The installations and experiments were conducted on a system equipped with an NVIDIA GeForce RTX 3090, running CUDA version 12.4.
