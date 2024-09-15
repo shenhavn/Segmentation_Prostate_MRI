@@ -25,4 +25,12 @@ needs to re-run for training / predicting.
 In every other run, set “has_batches=False” (default value) and run the code.
 Download the dataset into a folder named "Data" to ensure competability with the code provided.
 ## Training
-## Evaluation
+In the "train.py" file, you can choose between different losses:
+1. "is_tversky" - if True, apply Tversky loss, otherwise, apply Dice loss.
+2. if "is_tversky" == True: \alpha, \beta parsers are applied.
+3. "is_boundary" - if True, add Boundary loss as a regularization to the original loss.
+Metrics:
+1. "is_jaccard" - if True, apply Jaccard score, otherwise, apply Dice score.
+2. Hausdorff distance: This metric is automatically calculated during the training loop.
+### Evaluation
+## Testing
