@@ -37,8 +37,9 @@ Metrics:
 During training, evaluation over the validation set is also performed using "evaluate" 
 function in "evaluate.py" file. No additional variables need to be defined specifically for 
 this process. 
-* Models are saved into "checkpoints/" folder (if doesn't exist, created automatically in the 
-"train.py" file).
+* Models are saved into "checkpoints/" folder.
 * Loss graphs and Scores graphs (Jaccard/Dice) are saved into "plots/" folder (create this folder in advance).
 
 ## Testing
+In the "predict.py" file, you can choose between different scores as explained in "Training" section.
+* in "args.model" variable, change the path to the desired checkpoint path.
