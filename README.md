@@ -4,7 +4,10 @@ This project includes implementation of Unet-based segmentation algorithm for pr
 Our goal is to achieve high-score prostate segmentation using the U-Net model,
 despite the challenges posed by variations in data from multiple centers, vendors and protocol,
 as encountered in our selected dataset.
-## Dataset
+## Instalation
+The environment required to run this project can be downloaded from the "environment.yml".
+The installations and experiments were conducted on a system equipped with an NVIDIA GeForce RTX 3090, running CUDA version 12.4.
+## Data
 We utilized the PROMISE12 dataset, a collection of prostate MR images and segmentation 
 masks released as part of MICCAI Grand Challenge for prostate MR image segmentation 
 in 2012. The PROMISE12 dataset can be downloaded here: https://promise12.grand-challenge.org/Download/
@@ -19,3 +22,5 @@ of MR images / segmentation masks). After creating the folders, the code termina
 needs to re-run for training / predicting.
 In every other run, set “has_batches=False” (default value) and run the code.
 Download the dataset into a folder named "Data" to ensure competability with the code provided.
+## Training
+## Evaluation
